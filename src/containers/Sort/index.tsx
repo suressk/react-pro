@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../../assets/images/1.jpg'
+import image from '@/assets/images/1.jpg'
 
 interface ISortProps {
 

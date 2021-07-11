@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
-import image from '../../assets/images/3.jpg'
+import image from '@/assets/images/3.jpg'
+
 interface ICountProps {
 
 }

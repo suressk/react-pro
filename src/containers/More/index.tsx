@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../../assets/images/2.jpg'
+import image from '@/assets/images/2.jpg'
 
 interface IMoreProps {
 
