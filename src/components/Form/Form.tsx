@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Provider } from './context'
 
 interface IFormProps {
-    onSubmit: (data: object) => void
+    onSubmit?: (data: object) => void
 }
 
 export default class Form extends Component<IFormProps> {
