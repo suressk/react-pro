@@ -12,7 +12,7 @@ export default class Input extends Component<IInputProps> {
 
     static contextType = ctx
 
-    handleChange = (e: React.ReactEventHandler) => {
+    handleChange = (e: React.SyntheticEvent) => {
         const val = e.target.value
         this.context.changeFormData(this.props.name, val)
     }
